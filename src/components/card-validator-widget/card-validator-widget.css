@@ -1,0 +1,114 @@
+.card-validator-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin: auto;
+  max-width: 420px;
+  min-height: 170px;
+}
+
+.card-validator-form h2 {
+  font-size: 20px;
+  color: #000000bd;
+}
+
+.payment-systems {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 5px;
+}
+
+.card-validator-control {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.card-validator-input {
+  height: 35px;
+  padding: 5px 15px;
+  box-sizing: border-box;
+  outline: 1px solid #afacac;
+  border: 0;
+  border-radius: 5px;
+  font-size: 15px;
+  color: #444444ed;
+}
+
+.card-validator-input:focus {
+  outline: 2px solid #66afe9;
+}
+
+.card-validator-submit {
+  height: 35px;
+  padding: 5px 15px;
+  box-sizing: border-box;
+  border: 0;
+  border-radius: 5px;
+  font-size: 15px;
+  color: #ffffffed;
+  background-color: #56d037ed
+}
+
+.card-validator-submit:hover {
+  cursor: pointer;
+  background-color: #2da50eed;
+}
+
+.card-validator-message {
+  font-size: 15px;
+  text-align: center;
+}
+
+.success {
+  color: #2da50e;
+}
+
+.warning {
+  color: #de0000;
+  font-weight: bold;
+}
+
+.payment-system-img {
+  width: 44px;
+  height: 28px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.mir {
+  background-image: url(/src/img/mir.svg);
+}
+
+.visa {
+  background-image: url(/src/img/visa.svg);
+}
+
+.mastercard {
+  background-image: url(/src/img/mastercard.svg);
+}
+
+.american-express {
+  background-image: url(/src/img/american-express.svg);
+}
+
+.discover {
+  background-image: url(/src/img/discover.svg);
+}
+
+.jcb {
+  background-image: url(/src/img/jcb.svg);
+}
+
+.diners-club {
+  background-image: url(/src/img/diners-club.svg);
+}
+
+.not-suitable {
+  opacity: 0.15;
+}
